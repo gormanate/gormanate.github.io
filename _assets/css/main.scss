@@ -1,0 +1,109 @@
+@font-face {
+  font-family: monkeyIsland;
+  src: url(font_path("ONESIZE_.TTF"));
+}
+
+header {
+	text-align: center;
+	font-family: monkeyIsland;
+	border-bottom: thick dotted black;
+	padding-bottom: 20px;
+}
+
+header ul {
+	display: flex;
+	text-align: center;
+	margin: 0;
+	justify-content: center;
+	padding: 0;
+}
+
+header ul li {
+	margin: 0;
+	list-style: none;
+	font-size: 150%;
+	padding: 0 0.8em;
+}
+
+header ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+header ul li a:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 3px;
+	width: 0;
+	background: transparent; 
+	transition: width .5s ease, background-color .5s ease;
+}
+
+header ul li a:hover:after {
+	width: 100%;
+	background: black;
+}
+
+header h1 {
+	font-size: 400%;
+	-webkit-margin-after: 0.3em;
+}
+
+body {
+	max-width: 720px;
+	margin: auto;
+}
+
+#site-title a,
+#site-title a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+
+#site-title a:hover {
+	font-style: italic;
+}
+
+.main {
+	font-family: sans-serif;
+}
+
+article {
+	margin: 1em;
+}
+
+.entry-title {
+	margin-bottom: 0.25em;
+}
+
+a {
+	color: #660000;
+}
+
+a:hover {
+	color: black;
+}
+
+.entry-date {
+	color: #b1b1b1;
+}
+
+.entry-excerpt {
+	margin-top: 0.5em;
+}
+
+/******************
+Blog Post pages!
+******************/
+
+.post-title, .page-title {
+	font-size: 175%;	
+	text-align: center;
+}
+
+li {
+	margin-bottom: 0.3em;
+}
+
+

@@ -1,0 +1,9 @@
+---
+layout: post
+title: "New Website"
+date: 2017-06-10 20:14:00 -0400
+categories: blog
+---
+I've done a little house cleaning in the last six months!
+
+I got annoyed and frustrated with the amount of time I had to spend mantaining my wordpress site, and moved it over to jekyll after much procrastination. As you can see it's pretty bare bones at the moment. I like it that way, and it serves the purposes of what I want to do with this website for the time being. Now that it should be much less burdensome to maintain this site, I hope to write a little more, and hopefully have some more projects to share before the end of this year! I'm still not one-hundred percent certain what I'm going to do with this site (I'd like to write about hikes/bikes/fun things that I do), but now I have a presence on the web that I'm 2% happier with than the version that I had before! Enjoy!
