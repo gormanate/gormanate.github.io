@@ -7,10 +7,8 @@ permalink: /projects/
 Here are a couple of projects I have worked on. I am proud of most of them.
 
 ### Twitter Bots ###
-These are some twitter bots I have made. Currently, these are both down. I have a plan to bring them back to life in the near future.
-
 * [Wise Wrestlers](https://twitter.com/wisewrestlers) - Falsely attributes inspirational quotes to professional wrestlers.
-* [Antique Appraisals](https://twitter.com/RoadshowAnswers) - Lots of people post to the Antiques Roadshow Facebook Page, asking for people to weigh in on how much one of their antiques are, and what those items might be. This bot generated a random description and made up a cost for the item. 
+* [Antique Appraisals](https://twitter.com/RoadshowAnswers) - Lots of people post to the Antiques Roadshow Facebook Page, asking for people to weigh in on how much one of their antiques are, and what those items might be. This bot generated a random description and made up a cost for the item. - This bot is not in service at the moment.
 
 ### Video Games ###
 I have made two little video games. 
