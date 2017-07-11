@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 @font-face {
   font-family: monkeyIsland;
   src: url(font_path("ONESIZE_.TTF"));
@@ -111,9 +115,23 @@ li {
 	margin-bottom: 0.3em;
 }
 
+div.image {
+	width: 40%;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	display: block;
+	margin: auto;
+	margin-bottom: 2em;
+}
+
 img {
-	max-width: 337px;
+	width: 100%;
 	height: auto;
 	display: block;
 	margin: auto;
+}
+
+div.caption {
+	text-align: center;
+	padding: 5px;
 }
