@@ -18,10 +18,20 @@ body {
   src: url(font_path("ONESIZE_.TTF"));
 }
 
+ul {
+	margin: 0.5vh;
+	list-style-position: outside;
+	padding-left: 0;
+}
+
+li {
+	margin: 1vh;
+}
+
 header {
 	text-align: center;
 	font-family: monkeyIsland;
-	border-bottom: dotted;
+	border-bottom: dashed;
 	padding-bottom: 15px;
 	border-width: 0 0 5px 0;
 }
@@ -101,6 +111,10 @@ a {
 
 a:hover {
 	color: black;
+}
+
+.entry-title {
+	margin-bottom: 0.5vh;
 }
 
 .entry-date {
