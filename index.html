@@ -1,14 +1,22 @@
 ---
 layout: default
 ---
-{% for post in site.posts %}
-<div class="entry">
-	<div class="entry-meta">
-		<h3 class="entry-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-		<div class="entry-date">{{ post.date | date_to_long_string }} </div>
+<div class="row">
+	<div class="col-m-12 col-8">
+		{% for post in site.posts %}
+			<div class="entry">
+				<div class="entry-meta">
+					<h3 class="entry-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+					<div class="entry-date">{{ post.date | date_to_long_string }} </div>
+				</div>
+				<div class="entry">
+					<p class="entry-excerpt"> {{ post.excerpt | strip_html }} </p>
+				</div>
+			</div>
+		{% endfor %}
 	</div>
-	<div class="entry">
-		<p class="entry-excerpt"> {{ post.excerpt | strip_html }} </p>
+	<div class= "col-4">
+		Here is a lonely sidebar. I plan to at some point populate this with a recent project,
+		or perhaps put some twitter bot content there.
 	</div>
 </div>
-{% endfor %}
