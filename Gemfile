@@ -23,6 +23,7 @@ group :jekyll_plugins do
 end
 
 gem 'jekyll-assets'
+gem "rb-fsevent", "~> 0.9.0"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
