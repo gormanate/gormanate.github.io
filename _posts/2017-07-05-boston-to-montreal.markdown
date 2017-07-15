@@ -12,9 +12,16 @@ At about 10:30 PM, I pulled off the highway to go on a bike trail, roughly 8 mil
 
 Day 2 (July 1)
 --------------
-The second day went a little better. It was supposed to be a 90 mile day, but I ended up going about 75, for a variety of reasons. Early in the day was filled with beautiful views of Mount Mondanock (no pictures stil). I ended up going onto an old rail trail, which was gorgeous, but not very well maintained. Below are some pics!
-{% include image.html file="boston_to_montreal/waterfall_on_trail.jpg" alt="Waterfall" caption="Above the river on the trail" %}
-{% include image.html file="boston_to_montreal/view_from_bike.jpg" alt="bike_view" caption="A view of the trail from my bike." %}
-{% include image.html file="boston_to_montreal/trail_hole.jpg" alt="Hole!" caption="There was some issues with trail maintainance!" %}
+The second day went a little better. It was supposed to be a 90 mile day, but I ended up going about 75, for a variety of reasons. Early in the day was filled with beautiful views of Mount Mondanock (no pictures still.
+I stopped at a coffee shop in Keene and took my first pics.
+
+{% cloudinary /images/boston_to_montreal/selfie_keene.jpg alt="selfie" caption="Selfie I took in Keene, NH" %}
+{% cloudinary /images/boston_to_montreal/people_bathroom.jpg alt="bathroom" caption="Coffee shop in Keene knows what's up." %}
+
+ I ended up going onto an old rail trail, which was gorgeous, but not very well maintained. Below are some pics!
+{% cloudinary /images/boston_to_montreal/waterfall_on_trail.jpg alt="Waterfall" caption="Above the river on the trail" %}
+{% cloudinary /images/boston_to_montreal/view_from_bike.jpg
+ alt="Bike View" caption="A view of the trail from my bike." %}
+{% cloudinary /images/boston_to_montreal/trail_hole.jpg alt="Hole!" caption="There was some issues with trail maintainance!" %}
 I'll write more later, but for now this is what I got.
 
