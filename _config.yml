@@ -39,15 +39,3 @@ assets:
   sources:
     - _assets/css
     - _assets/fonts
-
-cloudinary: 
-  cloud_name: dd8sqmgp4
-  verbose: true
-  presets:
-    default:
-      min_width: 320
-      max_width: 800
-      fallback_max_width: 800
-      steps: 5
-      sizes: '(min-width: 50rem) 13rem, 90vw'
-      figure: always

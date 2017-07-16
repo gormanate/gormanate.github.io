@@ -125,6 +125,25 @@ a:hover {
 	margin-top: 0.5em;
 }
 
+.image {
+	max-width: 90%;
+	height: auto;
+	position: relative;
+	margin: 0 0 5vh 0;
+}
+
+.image img {
+	max-width: 100% !important;
+	height: auto;
+	display: block;
+
+}
+
+.image .caption {
+	text-align: center;
+	color: #808080;
+}
+
 /* Responsive Web Design Stuff */
 
 /* Mobile Phones */
