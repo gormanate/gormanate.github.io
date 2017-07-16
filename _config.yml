@@ -24,7 +24,7 @@ github_username:  gormanate
 
 # Build settings
 markdown: kramdown
-gems:
+plugins:
   - jekyll-assets
 
 exclude:
@@ -33,11 +33,9 @@ exclude:
   - vendor
 
 assets:
-
   assets:
     - "*.png"
     - "bundle.css"
-
   sources:
     - _assets/css
     - _assets/fonts
@@ -48,7 +46,7 @@ cloudinary:
   presets:
     default:
       min_width: 320
-      max_width: 1600
+      max_width: 800
       fallback_max_width: 800
       steps: 5
       sizes: '(min-width: 50rem) 50rem, 90vw'
