@@ -18,24 +18,10 @@ email: hi@gorman.zone
 description: > # this means to ignore newlines until "baseurl:"
   Andy Gorman's Web Page
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.gorman.zone"
+url: "https://gorman.zone"
 twitter_username: gormanate
 github_username:  gormanate
 
 # Build settings
 markdown: kramdown
-plugins:
-  - jekyll-assets
 
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - vendor
-
-assets:
-  assets:
-    - "*.png"
-    - "bundle.css"
-  sources:
-    - _assets/css
-    - _assets/fonts
