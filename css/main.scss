@@ -1,3 +1,5 @@
+---
+---
 /* Useful shared variables */
 $tablet-min: 600px;
 $desktop-min: 768px;
@@ -15,7 +17,7 @@ body {
 
 @font-face {
   font-family: monkeyIsland;
-  src: url(font_path("ONESIZE_.TTF"));
+  src: url("{{ site.url }}/fonts/ONESIZE_.TTF");
 }
 
 ul {
